@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = "BlurAlertView"
   s.version      = "1.0.0"
-  s.platform     = :ios, '7.0'
+  s.ios.deployment_target = '7.0'
   s.summary      = "An example of BlurAlertView Function"
   s.homepage     = "https://github.com/hanzhanbing/BlurAlertView"
   s.license  =  { :type => 'MIT', :file => 'LICENSE.txt' }
