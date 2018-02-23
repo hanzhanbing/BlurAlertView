@@ -7,13 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		96D04352203FE7BD00EE8875 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D04351203FE7BD00EE8875 /* AppDelegate.m */; };
-		96D04355203FE7BD00EE8875 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D04354203FE7BD00EE8875 /* ViewController.m */; };
-		96D04358203FE7BD00EE8875 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D04356203FE7BD00EE8875 /* Main.storyboard */; };
-		96D0435A203FE7BD00EE8875 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96D04359203FE7BD00EE8875 /* Assets.xcassets */; };
-		96D0435D203FE7BD00EE8875 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96D0435B203FE7BD00EE8875 /* LaunchScreen.storyboard */; };
-		96D04360203FE7BD00EE8875 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0435F203FE7BD00EE8875 /* main.m */; };
 		96D0436A203FE7BE00EE8875 /* BlurAlertViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D04369203FE7BE00EE8875 /* BlurAlertViewUITests.m */; };
+		96D0437A203FE9D600EE8875 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D04376203FE9D600EE8875 /* FXBlurView.m */; };
+		96D0437E203FEA1F00EE8875 /* BlurAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 96D0437D203FEA1F00EE8875 /* BlurAlertView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,18 +24,13 @@
 
 /* Begin PBXFileReference section */
 		96D0434D203FE7BD00EE8875 /* BlurAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96D04350203FE7BD00EE8875 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		96D04351203FE7BD00EE8875 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		96D04353203FE7BD00EE8875 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		96D04354203FE7BD00EE8875 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		96D04357203FE7BD00EE8875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		96D04359203FE7BD00EE8875 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		96D0435C203FE7BD00EE8875 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		96D0435E203FE7BD00EE8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		96D0435F203FE7BD00EE8875 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		96D04365203FE7BE00EE8875 /* BlurAlertViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurAlertViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96D04369203FE7BE00EE8875 /* BlurAlertViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurAlertViewUITests.m; sourceTree = "<group>"; };
 		96D0436B203FE7BE00EE8875 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96D04375203FE9D600EE8875 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		96D04376203FE9D600EE8875 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		96D0437C203FEA1F00EE8875 /* BlurAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlurAlertView.h; sourceTree = "<group>"; };
+		96D0437D203FEA1F00EE8875 /* BlurAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurAlertView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,15 +72,9 @@
 		96D0434F203FE7BD00EE8875 /* BlurAlertView */ = {
 			isa = PBXGroup;
 			children = (
-				96D04350203FE7BD00EE8875 /* AppDelegate.h */,
-				96D04351203FE7BD00EE8875 /* AppDelegate.m */,
-				96D04353203FE7BD00EE8875 /* ViewController.h */,
-				96D04354203FE7BD00EE8875 /* ViewController.m */,
-				96D04356203FE7BD00EE8875 /* Main.storyboard */,
-				96D04359203FE7BD00EE8875 /* Assets.xcassets */,
-				96D0435B203FE7BD00EE8875 /* LaunchScreen.storyboard */,
-				96D0435E203FE7BD00EE8875 /* Info.plist */,
-				96D0435F203FE7BD00EE8875 /* main.m */,
+				96D0437C203FEA1F00EE8875 /* BlurAlertView.h */,
+				96D0437D203FEA1F00EE8875 /* BlurAlertView.m */,
+				96D04374203FE9D600EE8875 /* FXBlurView */,
 			);
 			path = BlurAlertView;
 			sourceTree = "<group>";
@@ -101,6 +86,15 @@
 				96D0436B203FE7BE00EE8875 /* Info.plist */,
 			);
 			path = BlurAlertViewUITests;
+			sourceTree = "<group>";
+		};
+		96D04374203FE9D600EE8875 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				96D04375203FE9D600EE8875 /* FXBlurView.h */,
+				96D04376203FE9D600EE8875 /* FXBlurView.m */,
+			);
+			path = FXBlurView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,9 +179,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D0435D203FE7BD00EE8875 /* LaunchScreen.storyboard in Resources */,
-				96D0435A203FE7BD00EE8875 /* Assets.xcassets in Resources */,
-				96D04358203FE7BD00EE8875 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,9 +196,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96D04355203FE7BD00EE8875 /* ViewController.m in Sources */,
-				96D04360203FE7BD00EE8875 /* main.m in Sources */,
-				96D04352203FE7BD00EE8875 /* AppDelegate.m in Sources */,
+				96D0437E203FEA1F00EE8875 /* BlurAlertView.m in Sources */,
+				96D0437A203FE9D600EE8875 /* FXBlurView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,25 +218,6 @@
 			targetProxy = 96D04366203FE7BE00EE8875 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		96D04356203FE7BD00EE8875 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96D04357203FE7BD00EE8875 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		96D0435B203FE7BD00EE8875 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				96D0435C203FE7BD00EE8875 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		96D0436C203FE7BE00EE8875 /* Debug */ = {
