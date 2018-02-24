@@ -8,6 +8,7 @@ Pod::Spec.new do |s|
   s.author             = { "hanzhanbing" => "1655661337@qq.com" }
   s.social_media_url   = "http://weibo.com/3879141691"
   s.source       = { :git => "https://github.com/hanzhanbing/BlurAlertView.git", :tag => s.version }
-  s.source_files  = "BlurAlertView/*"
+  s.public_header_files = 'BlurAlertView/*.h', 'BlurAlertView/**/*.h'
+  s.source_files  = "BlurAlertView/*.{h,m}", "BlurAlertView/**/*.{h,m}"
   s.requires_arc = true
 end
